@@ -3,6 +3,7 @@
 ## Description  
 A website that allows users to translate related keywords or phrases to GIFs, save, categorize and share GIFs on Facebook or Twitter  
 
+Tech: React, Node, Express
 ## Table of Contents
 - [Install](#install)
 - [Usage](#usage)
