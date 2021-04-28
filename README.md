@@ -2,8 +2,6 @@
 
 ![Heroku](http://heroku-badge.herokuapp.com/?app=mysterious-crag-44463&style=flat&svg=1&root=index.html)
 
-## Live [here](https://mysterious-crag-44463.herokuapp.com/#/)
-
 ## Table of Contents
 - [Install](#install)
 - [Usage](#usage)
@@ -16,15 +14,12 @@
 ## Install
 
 ```
-$ git clone https://github.com/csc309-18s/assignment-3-coffee.git
-$ cd assignment-3-coffee
+$ git clone https://github.com/derek1210/coffee-git-browser.git
+$ cd coffee-git-browser
 $ npm install
 ```
 
 ## Usage
-
-The app is live [here](https://mysterious-crag-44463.herokuapp.com/#/)
-
 To locally run the client and server, do:
 ```
 $ npm start
@@ -46,10 +41,6 @@ users cannot log in, save gifs, etc. Fatal errors may occur as calls to `/api` c
 
 Please see [Solutions.md](/Solutions.md) for detailed usage instructions.
 
-## API
-
-See [docs/api.md](/docs/api.md)
-
 ## Authentication
 
 Logins are facilitated by a `POST` request to the the `api/login` endpoint (see [docs/api.md](/docs/api.md)).
@@ -57,11 +48,6 @@ Passwords are hashed via `bcrypt` and checked against the password in the databa
 Upon a successful login, two items are saved in localStorage. `isLoggedIn` is a boolean
 which denotes whether or not a user is logged in. `uid` is a string which contains a logged in user's
 unique identifier, which is used for facilitating saving and profile requests.
-
-## Deployment
-
-See [docs/deploy.md](/docs/deploy.md)
-
 
 ## Schema
 
